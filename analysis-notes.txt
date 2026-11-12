@@ -1,0 +1,21 @@
+
+Static Analysis Notes
+
+Tool: clang-tidy
+Version: Not installed / Not yet checked
+
+Project: LegacyRefactoringLab
+
+Commands planned:
+clang-tidy main.cpp -- -std=c++17
+clang-tidy order.cpp -- -std=c++17
+
+Status:
+Static analysis has not been performed because clang-tidy
+is not currently available.
+
+Planned improvements:
+1. Improve variable names.
+2. Extract discount constants.
+3. Extract applyDiscount function.
+4. Add characterization tests.
